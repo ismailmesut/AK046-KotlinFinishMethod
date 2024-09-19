@@ -7,6 +7,10 @@ android {
     namespace = "com.ismailmesutmujde.kotlinfinishmethod"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.ismailmesutmujde.kotlinfinishmethod"
         minSdk = 24
